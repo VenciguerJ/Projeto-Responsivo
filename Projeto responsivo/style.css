@@ -1,0 +1,401 @@
+html
+{
+    font-size: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+body
+{ 
+    font-size: 1.6em;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+main
+{
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.button
+{
+    display: block;
+    height: 40px;
+    width: 7em;
+    background-color: rgb(96, 208, 208);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: .7em;
+    text-align: center;
+}
+.button:hover
+{
+    background-color: rgba(75, 141, 199, 0.79);
+    transition: linear .1s;
+}
+
+h1, h2, h3
+{
+    color: rgb(110, 59, 158);
+}
+
+i
+{
+    font-size: 4rem;
+    color: rgb(161, 86, 183);
+}
+
+footer
+{
+   background-color: rgb(42, 50, 144);
+   width: 100%;
+   text-align: center;
+   margin: 10px auto;
+}
+
+footer i, footer h3, footer p
+{
+    color: aliceblue
+}
+
+footer p
+{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.footer-header
+{
+    background-color: rgb(26, 31, 91);
+    padding: 1rem;
+
+}
+.footer-header ul li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-header ul
+{
+    font-size: .05em;
+}
+
+.footer-header li i:hover
+{
+    color: rgb(49, 133, 133);
+    transition: ease-in-out .2s;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 200px) /* mobile */
+{
+    header nav
+    {
+        display: block;
+        height: 250px;
+        background-color:rgb(138, 43, 226);
+        width: 100%;
+    }
+
+    header img
+    {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    header nav div
+    {
+        box-sizing: border-box;
+        height: 62px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    header nav div a
+    {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    header nav div:hover
+    {
+        background-color: rgb(149, 71, 222);
+        transition: linear .1s;
+    }
+
+    /* corpo do site */
+
+    h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .inicial
+    {
+        text-align: center;
+        height: 250px;
+        margin: 30px 0 -10px;
+    }
+
+    .inicial img
+    {
+        display: block;
+        height: 0px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .inicial p
+    {
+        width: 80%;
+        margin: auto;
+    }
+
+    .button
+    {
+        margin: 20px auto 50px;
+    }
+
+    .info
+    {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .info article
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    .info article p
+    {
+        margin-top: -16px;
+        line-height: 1.3;
+    }
+
+    .info2
+    {
+        background-color: white;
+        padding: 10px;
+    }
+
+    .info2 article
+    {
+        margin-bottom: 30px;
+    }
+
+    .info2 .button
+    {
+        margin: 0 0 10px
+    }
+
+    /* footer */
+
+    
+
+}
+
+@media screen and (min-width: 600px)/* janela 1 */
+{
+    
+    header
+    {
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        display: inline-block;
+        position: relative;
+    }
+
+    header img
+    {
+        float: left;
+        position: absolute;
+        left: 0;
+        margin-left: 1%;
+        width: 35%;
+        height: 80px;
+        max-height: 80px;
+        max-width: 35%;
+        margin-top: 15px;
+    }
+
+    header nav
+    {
+        box-sizing: border-box;
+        background-color: inherit;
+        display: inline-block;
+        text-align: right;
+        width: 60%;
+        height: 80px;
+        position: absolute;
+        right: 0;
+    }
+
+    .header-button
+    {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 22%;
+        height: 45px;
+        margin: 30px 1% ;
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: bold;
+    }
+
+    .header-button a
+    {
+        color: rgb(101, 35, 106);
+        font-size: 1.3em;
+    }
+
+    .header-button:hover
+    {
+        border-bottom: solid 1px;
+        transition: ease-in-out .6s;
+        background-color: inherit;
+    }
+
+    /* corpo do site */
+
+    /* inicial */
+    .inicial
+    {
+        height: 280px;
+        background-color: blueviolet;
+        text-align: center;
+        margin-bottom: 50px;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .inicial img
+    {
+        display: block;
+        height: 80px;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .inicial h1
+    {
+        padding-top: -40px;
+        font-size: 1.2em;
+    }
+
+    .inicial .button
+    {
+        margin: 3% auto;
+    }
+
+    .inicial h1,.inicial p
+    {
+        color:aliceblue
+    }
+
+    .inicial p 
+    {
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    /* conteúdo */
+
+    .info
+    {
+        margin: auto;
+        text-align: center;
+    }
+
+    .info article
+    {
+        width: 45%;
+        margin: 0 1%;
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 850px) /* janela 1 */
+{
+    body
+    {
+        background-color: inherit;
+    }
+
+    .inicial
+    {
+        height: 350px;
+        background-image: url(images/bg_topo_1198x670.jpg);
+        background-position: top;
+        background-size: cover;
+    }
+
+    .inicial img
+    {
+        padding-top: 90px;
+    }
+
+    .info2
+    {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 1080px) /* janela full */
+{
+   .inicial
+   {
+    height: 500px;
+    background-image: url(images/bg_topo_1600x1374.jpg);
+    background-size: cover;
+    background-position: 0 -210px;
+   }
+
+    .inicial img
+    {
+        padding-top: 18%;
+    }
+
+    .info
+    {
+        display: inline-block;
+    }
+
+    .info article
+    {
+    width: 20%;
+    }
+
+    .info2
+    {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    .info2 div
+    {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .info2 div:nth-child(2), div:nth-child(4)
+    {
+        float: right;
+    }
+
+}
